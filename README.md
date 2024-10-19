@@ -17,8 +17,13 @@ First, split the data into three "sections" (representing each kind of subscript
 - Join the data to another query (a dataset I created that maps each country to its region according to geography, as the original regions were incorrectly assigned) to pull in the respective regions and complete the dataset.
 - Close and Load into a new sheet.
 
+Region Details:
+SEA: Southern and East Africa
+WECA: West and Central Africa
+MENA: Middle East and North Africa
+
 ## Skills
 Excel: Power Query, Data Cleaning, ETL, Automation, Data Analysis
 
-# Next Steps
+## Next Steps
 Build a PowerBI dashboard to visualise the information so the manager can extract meaningful insights.
