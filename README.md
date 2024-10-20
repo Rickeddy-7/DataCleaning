@@ -3,8 +3,15 @@ Using Power Query in Microsoft Excel, I transformed messy and unsturctured data 
 The key requirement for this project is create a robust solution that will automate this same cleaning process to new data with a 
 similar structure without human intervention.
 
-The final dataset looks like this:
-![Final Result Set](final-structure.png)
+Here's what the raw data looks like:
+![Raw Data](raw-data.png)
+
+### Legend:
+- Rows to be removed highlighted in yellow
+- Data anomalies outlined in red
+- Subscriber types outlined in blue
+- Countries placed in the wrong region highlighted in orange
+- Columns to be unpivoted outlined in green
 
 ## Methodology
 First, split the data into three "sections" (representing each kind of subscription type) by duplicating the original query twice. Then, perform some transformations on each query:
@@ -17,8 +24,12 @@ First, split the data into three "sections" (representing each kind of subscript
 - Join the data to another query (a dataset I created that maps each country to its region according to geography, as the original regions were incorrectly assigned) to pull in the respective regions and complete the dataset.
 - Close and Load into a new sheet.
 
+## Result
+The final dataset looks like this:
+![Final Result Set](final-structure.png)
+
 ## Skills
 Excel: Power Query, Data Cleaning, ETL, Automation, Data Analysis
 
-# Next Steps
+## Next Steps
 Build a PowerBI dashboard to visualise the information so the manager can extract meaningful insights.
